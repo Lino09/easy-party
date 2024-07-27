@@ -1,0 +1,118 @@
+{
+  "basicos": [
+    {
+      "nombre": "Paquete Básico 1",
+      "precio": 4800,
+      "capacidad": 50,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "5 mesas (redondas o rectangulares)",
+        "50 sillas",
+        "5 manteles blancos"
+      ]
+    },
+    {
+      "nombre": "Paquete Básico 2",
+      "precio": 6000,
+      "capacidad": 100,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "10 mesas (redondas o rectangulares)",
+        "100 sillas",
+        "10 manteles blancos"
+      ]
+    },
+    {
+      "nombre": "Paquete Básico 3",
+      "precio": 7200,
+      "capacidad": 150,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "15 mesas (redondas o rectangulares)",
+        "150 sillas",
+        "15 manteles blancos"
+      ]
+    },
+    {
+      "nombre": "Paquete Básico 4",
+      "precio": 8400,
+      "capacidad": 200,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "20 mesas (redondas o rectangulares)",
+        "200 sillas",
+        "20 manteles blancos"
+      ]
+    }
+  ],
+  "completos": [
+    {
+      "nombre": "Paquete Completo 1",
+      "precio": 6000,
+      "capacidad": 50,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "5 mesas (redondas o rectangulares)",
+        "50 sillas",
+        "5 manteles blancos",
+        "5 cubre manteles(diferentes colores)",
+        "50 cubre sillas blancos",
+        "50 moños para sillas(diferentes colores)",
+        "50 vasos cuberos (250ml)",
+        "50 juegos de cubiertos (cuchara, cuchillo, tenedor)",
+        "50 platos (trinche, arrocero u hondo)"
+      ]
+    },
+    {
+      "nombre": "Paquete Completo 2",
+      "precio": 7500,
+      "capacidad": 100,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "10 mesas (redondas o rectangulares)",
+        "100 sillas",
+        "10 manteles blancos",
+        "10 cubre manteles(diferentes colores)",
+        "100 cubre sillas blancos",
+        "100 moños para sillas(diferentes colores)",
+        "100 vasos cuberos (250ml)",
+        "100 juegos de cubiertos (cuchara, cuchillo, tenedor)",
+        "100 platos (trinche, arrocero u hondo)"
+      ]
+    },
+    {
+      "nombre": "Paquete Completo 3",
+      "precio": 9000,
+      "capacidad": 150,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "15 mesas (redondas o rectangulares)",
+        "150 sillas",
+        "15 manteles blancos",
+        "15 cubre manteles(diferentes colores)",
+        "150 cubre sillas blancos",
+        "150 moños para sillas(diferentes colores)",
+        "150 vasos cuberos (250ml)",
+        "150 juegos de cubiertos (cuchara, cuchillo, tenedor)",
+        "150 platos (trinche, arrocero u hondo)"
+      ]
+    },
+    {
+      "nombre": "Paquete Completo 4",
+      "precio": 11500,
+      "capacidad": 200,
+      "incluido": [
+        "Servicio de Salón (Maximo 12am)",
+        "20 mesas (redondas o rectangulares)",
+        "200 sillas",
+        "20 manteles blancos",
+        "20 cubre manteles(diferentes colores)",
+        "200 cubre sillas blancos",
+        "200 moños para sillas(diferentes colores)",
+        "200 vasos cuberos (250ml)",
+        "200 juegos de cubiertos (cuchara, cuchillo, tenedor)",
+        "200 platos (trinche, arrocero u hondo)"
+      ]
+    }
+  ]
+}
