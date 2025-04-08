@@ -66,6 +66,20 @@
   opacity: 0.8;
 }
 
+.radial-fade img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* Standard syntax (supported in Firefox) */
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
+  mask-mode: alpha;
+
+  /* WebKit syntax (Chrome, Safari) */
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
+  -webkit-mask-mode: alpha;
+}
+
+
 /* * {
   outline: 1px solid red !important;
   opacity: 1;

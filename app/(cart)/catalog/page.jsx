@@ -4,6 +4,7 @@ import paquetes from '../../../data/paquetes.json';
 import { useContext } from 'react';
 import CartContext from '../../../contextProvider/cartContext';
 import { useRouter } from 'next/navigation'
+import Link from 'next/link';
 
 const Catalog =() => {
   const router = useRouter()
@@ -16,7 +17,12 @@ const updateCart = (paquete) => {
   const formatPrice = (price) => new Intl.NumberFormat('es-MX', {style: 'currency', currency: 'MXN'}).format(price);
   return (
   <div className="text-white flex flex-col items-center pt-10 w-10/12 pb-24">
+    <div className='flex  gap-8'>
+    <Link href="/" className='text-xl rounded-full p-1 h-6 w-6 border flex items-center justify-center' >
+          {'<'} 
+      </Link>
      <h1 className="text-xl"> Paquetes disponibles</h1>
+    </div>
      <span className="my-4">Básicos</span>
      <ul className="flex flex-col gap-4 w-full">
       {paquetes.basicos.map((paq) => (
